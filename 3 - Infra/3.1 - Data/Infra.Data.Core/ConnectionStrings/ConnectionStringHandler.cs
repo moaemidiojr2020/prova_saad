@@ -14,7 +14,7 @@ namespace Infra.Data.Core.ConnectionStrings
         public string GetConnectionString()
         {
 #if DEBUG
-            var connString = _configuration.GetConnectionString("DefaultConnection");
+            var connString = _configuration.GetConnectionString("CONNECTION_STRING");
             return connString;
 
 #else
