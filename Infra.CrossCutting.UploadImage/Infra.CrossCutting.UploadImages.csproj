@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.6.0" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\3 - Infra\3.1 - Data\Infra.Data.Core\Infra.Data.Core.csproj" />
+    <ProjectReference Include="..\4 - Domain\Domain.EasyDelivery\Domain.EasyDelivery.csproj" />
+  </ItemGroup>
+
+</Project>
